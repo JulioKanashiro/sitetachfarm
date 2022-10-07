@@ -1,0 +1,155 @@
+
+.banner{
+    color: white;
+    padding:  40px 0;
+    height: 400px;
+    background-image: url("assets/banner.jpg");
+    background-size: cover;
+    border-radius: 4px;
+    background-attachment: fixed;
+ }
+
+ .banner .container{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner p{
+    font-size: 30px;
+    width: 280px;
+    margin-bottom: 200px;
+    color: white;
+ }
+
+ .banner .container span{
+    font-weight: 800;
+    color: white;
+ }
+
+
+.social {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 350px;
+    border-radius: 10px;
+    border-bottom: solid 3px #ffffff;
+    border-right: solid 3px #ffffff;
+ }
+
+ .box img {
+    width: 170px;
+ }
+
+.social .container .boxes {
+    display: flex;
+}
+
+.box{
+    margin: 25px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #23272a;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border-bottom:rgb(255, 255, 255) solid 2px;
+    border-right:black solid 2px;
+
+}
+
+.social p{
+    color: rgb(27, 46, 18) ;
+    font-weight: bold;
+    text-align: center;
+}
+.social h4{
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+
+.we {
+    background-color: white;
+    border-radius: 4px;
+    padding: 25px;
+}
+.we h2 {
+    color: rgb(39, 63, 40);
+}
+.we p {
+    color: rgb(39, 63, 40);
+}
+.squad {
+    margin-top: 49px;
+}
+
+
+.solucion {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 25px;
+}
+.solucion h2 {
+    color: rgb(39, 59, 31);
+    margin-bottom: 5px;
+}
+.solucion p {
+    color: rgb(39, 63, 40);
+    margin-bottom: 5px;
+
+}
+.solucion h3 {
+    color: rgb(39, 63, 40);
+    margin-bottom: 5px;
+    
+}
+
+
+.squad {
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 700px;
+    border-radius: 10px;
+    border-bottom: solid 3px rgba(255, 255, 255, 0.9);
+    border-right: solid 10px rgba(255, 255, 255, 0.9);
+    display: flex;
+ }
+
+ .squad .box img {
+    width: 175px;
+    border-radius: 100%;
+    display: flex;
+ }
+ .squad .box a img {
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+ }
+ .squad .box p {
+    margin-bottom: 10px;
+ }
+
+.squad .container .boxes {
+    display: flex;
+}
+
+.box{
+    margin: 25px 50px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9fd4a4;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border-bottom:rgb(44, 68, 35) solid 2px;
+    border-right:rgb(38, 73, 40) solid 2px;
+
+}
+.squad .container {
+    padding: 15px;
+}

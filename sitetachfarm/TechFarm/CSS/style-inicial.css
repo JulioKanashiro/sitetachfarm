@@ -1,0 +1,151 @@
+
+.banner{
+    color: white;
+    padding:  40px 0;
+    height: 400px;
+    background-image: url("assets/banner.jpg");
+    background-size: cover;
+    border-radius: 4px;
+    background-attachment: fixed;
+ }
+
+ .banner .container{
+    height: 480px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner p{
+    font-size: 30px;
+    width: 300px;
+    margin-bottom: 200px;
+    color: white;
+ }
+
+ .banner .container span{
+    font-weight: 800;
+    color: white;
+ }
+
+
+
+ 
+
+ .box img {
+    width: 170px;
+ }
+
+.social .container .boxes {
+    display: flex;
+}
+
+.box{
+    margin: 25px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #151452;
+    border-radius: 5px;
+    padding: 10px 10px;
+    border-bottom:rgb(255, 255, 255) solid 2px;
+    border-right:black solid 2px;
+
+}
+
+.social p{
+    color: rgb(255, 255, 255) ;
+    font-weight: bold;
+    text-align: center;
+}
+.social h4{
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+
+.we h2 {
+    color: rgb(23, 9, 61);
+}
+.we p {
+    color: rgb(23, 9, 61);
+}
+.squad {
+    margin-top: 49px;
+}
+
+
+.solucion {
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 4px;
+    padding: 25px;
+}
+.solucion h2 {
+    color: rgb(28, 18, 66);
+    margin-bottom: 5px;
+    justify-content: center;
+}
+.solucion p {
+    color:rgb(28, 18, 66);
+    margin-bottom: 5px;
+    justify-content: center;
+
+}
+.solucion h3 {
+    color: rgb(28, 18, 66);
+    margin-bottom: 5px;
+    justify-content: center;
+    
+}
+
+
+.squad {
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 700px;
+    border-radius: 6px;
+    border-bottom: solid 3px rgba(255, 255, 255, 0.9);
+    border-right: solid 10px rgba(255, 255, 255, 0.9);
+    display: flex;
+ }
+
+ .squad .box img {
+    width: 180px;
+    border-radius: 100%;
+    display: flex;
+ }
+ .squad .box a img {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+ }
+ .squad .box p {
+    margin-bottom: 10px;
+ }
+
+.squad .container .boxes {
+    display: flex;
+}
+
+.box{
+    margin: 25px 50px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0e032e;
+    border-radius: 5px;
+    padding: 10px 10px;
+    border-bottom:#0e032e 4px;
+    border-right:#0e032e solid 4px;
+
+}
+.squad .container {
+    padding: 15px;
+} 
+
+h4{
+    color: #ffffff;
+}
